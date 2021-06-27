@@ -202,7 +202,7 @@ group = "Mo_ardilla"
         addCircleMarkers(
     data = Mo_arana,
      stroke = F,
-    radius = 2,
+    radius = 5,
     fillColor = "black",
     fillOpacity = 1,
     popup = paste(
@@ -239,7 +239,7 @@ group = "Mo_ardilla"
 
   addLayersControl(
     baseGroups = c("OpenStreetMap", "Stamen Toner Lite", "Imágenes de ESRI"),
-    overlayGroups = c("Mo_congo","Mo_ardilla", "Mo_arana","Mo_carablanca", "altitud")
+    overlayGroups = c("Mo_congo","Mo_ardilla", "Mo_arana","Mo_carablanca", "Altitud")
   ) %>%
   addMiniMap(
     tiles = providers$Stamen.OpenStreetMap.Mapnik,
