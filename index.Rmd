@@ -107,7 +107,7 @@ Mo_ardilla<-
 #Crear la capa de monos araña
 Mo_arana<- 
   Primates%>%
-  filter(species =="Atales geoffroyi")
+  filter(species =="Ateles geoffroyi")
 
 #Crear la capa de monoscarablanca
 Mo_carablanca<- 
@@ -202,7 +202,7 @@ group = "Mo_ardilla"
         addCircleMarkers(
     data = Mo_arana,
      stroke = F,
-    radius = 5,
+    radius =2,
     fillColor = "black",
     fillOpacity = 1,
     popup = paste(
