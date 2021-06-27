@@ -157,7 +157,7 @@ Primates %>%
   addRasterImage(
     altitud, 
     colors = Cl, 
-    opacity = 0.9,
+    opacity = 0.7,
     group = "Altitud")  %>%
       addCircleMarkers(
     data = Mo_congo,
